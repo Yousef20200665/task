@@ -1,0 +1,32 @@
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-actions {
+    display: flex;
+    gap: 5px;
+  }
+  .hov{
+    border-color: #080820 !important;
+  }
+  .hov:hover{
+     background-color: white !important;
+    
+  }
+  
+  .notification button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
